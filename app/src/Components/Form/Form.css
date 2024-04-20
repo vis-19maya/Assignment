@@ -1,0 +1,53 @@
+.blogbackgroundimage {
+
+    padding: 20px;
+    color: black;
+}
+
+.addblog {
+    
+    background-color: lavender;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.addblog h2 {
+    
+    margin-bottom: 20px;
+}
+
+.addblog input[type="text"],
+.addblog textarea {
+    
+    border: 1px solid lightgoldenrodyellow;
+    border-radius: 4px;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.addblog input[type="text"] {
+    
+    width: 100%;
+}
+
+.addblog textarea {
+
+    width: 100%;
+}
+
+.addblog button {
+
+    background-color:blue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.addblog button:hover {
+    
+    background-color: lightgoldenrodyellow;
+}
